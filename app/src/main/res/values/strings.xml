@@ -2,4 +2,6 @@
     <string name="app_name">PlacarApp</string>
     <string name="titulo1">Times</string>
     <string name="desenvolvido_por_rodrigo">Desenvolvido por Rodrigo</string>
+    <string name="time_da_casa">"INFORME O TIME DA CASA"</string>
+    <string name="time_visitante">"INFORME O TIME VISITANTE"</string>
 </resources>

@@ -27,20 +27,20 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (edtTime1.getText().toString().trim().length() == 0) {
-                    Toast.makeText(Main2Activity.this, "INFORME O TIME DA CASA", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Main2Activity.this, R.string.time_da_casa, Toast.LENGTH_SHORT).show();
                     edtTime1.requestFocus();
                     return;
                 }
 
                 if (edtTime2.getText().toString().trim().length() == 0) {
-                    Toast.makeText(Main2Activity.this, "INFORME O VISITANTE", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Main2Activity.this, R.string.time_visitante, Toast.LENGTH_SHORT).show();
                     edtTime2.requestFocus();
                     return;
                 }
 
                 Intent intent = new Intent(Main2Activity.this, MainActivity.class);
-                intent.putExtra("time1", edtTime1.getText().toString());
-                intent.putExtra("time2", edtTime2.getText().toString());
+                intent.putExtra(Constantes.TIME1, edtTime1.getText().toString());
+                intent.putExtra(Constantes.TIME2, edtTime2.getText().toString());
                 startActivity(intent);
                 finish();
 

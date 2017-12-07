@@ -8,6 +8,26 @@
         <item name="colorAccent">@color/accent</item>
     </style>
 
+    <style name="placar">
+        <item name="android:background">@drawable/botaox</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="nometime">
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:drawableTop">@mipmap/ic_launcher</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
 
 
